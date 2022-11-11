@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T00:56:55 EST" name="Default suite" finished-at="2022-11-11T00:57:06 EST" duration-ms="11154">
+    <groups>
+    </groups>
+    <test started-at="2022-11-11T00:56:55 EST" name="Default test" finished-at="2022-11-11T00:57:06 EST" duration-ms="11154">
+      <class name="tests.KaDashboardTest">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:tests.KaDashboardTest@3a93b025]" started-at="2022-11-11T00:56:55 EST" name="configureReports" finished-at="2022-11-11T00:56:56 EST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.KaDashboardTest@3a93b025]" started-at="2022-11-11T00:56:56 EST" name="openBrowser" finished-at="2022-11-11T00:57:01 EST" duration-ms="5848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickCoursesCheckVisibility()[pri:0, instance:tests.KaDashboardTest@3a93b025]" started-at="2022-11-11T00:57:01 EST" name="clickCoursesCheckVisibility" finished-at="2022-11-11T00:57:06 EST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCoursesCheckVisibility -->
+        <test-method is-config="true" signature="collectResults(org.testng.ITestResult)[pri:0, instance:tests.KaDashboardTest@3a93b025]" started-at="2022-11-11T00:57:06 EST" name="collectResults" finished-at="2022-11-11T00:57:06 EST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickCoursesCheckVisibility status=SUCCESS method=KaDashboardTest.clickCoursesCheckVisibility()[pri:0, instance:tests.KaDashboardTest@3a93b025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResults -->
+        <test-method is-config="true" signature="flushResults()[pri:0, instance:tests.KaDashboardTest@3a93b025]" started-at="2022-11-11T00:57:06 EST" name="flushResults" finished-at="2022-11-11T00:57:06 EST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushResults -->
+      </class> <!-- tests.KaDashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
